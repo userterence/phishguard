@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { width: 320px; margin: 0; font: 14px/1.5 system-ui, sans-serif; background:#0f172a; color:#e2e8f0; }
+header { display:flex; justify-content:space-between; align-items:center; padding:12px 16px; background:#1e293b; }
+h1 { font-size:15px; margin:0; letter-spacing:.4px; }
+.badge { font-size:11px; background:#334155; padding:2px 8px; border-radius:10px; }
+.status-card { padding:16px; margin:12px; border-radius:10px; border-left:5px solid #64748b; background:#1e293b; }
+.status-card.safe { border-color:#22c55e; }
+.status-card.suspicious { border-color:#f59e0b; }
+.status-card.phishing { border-color:#ef4444; }
+.status-card.unknown { border-color:#64748b; }
+.status-label { font-size:20px; font-weight:700; }
+#categoryLabel { color:#94a3b8; font-size:12px; text-transform:uppercase; }
+#confidenceLabel { font-size:12px; color:#94a3b8; margin-top:4px; }
+#reasonList { margin:10px 0 0 16px; padding:0; font-size:12px; color:#cbd5e1; }
+.report { padding:0 16px 12px; }
+.report h2 { font-size:12px; text-transform:uppercase; color:#94a3b8; margin:8px 0; }
+select, textarea { width:100%; background:#1e293b; color:#e2e8f0; border:1px solid #334155; border-radius:6px; padding:8px; margin-bottom:8px; font:inherit; }
+textarea { height:56px; resize:vertical; }
+button { background:#2563eb; color:#fff; border:0; border-radius:6px; padding:9px 12px; cursor:pointer; font:inherit; }
+button:hover { background:#1d4ed8; }
+footer { display:flex; gap:8px; padding:12px 16px; border-top:1px solid #1e293b; }
+footer button { flex:1; background:#334155; }
+footer button:hover { background:#475569; }
+#reportMsg { font-size:12px; color:#22c55e; min-height:16px; }
