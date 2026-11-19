@@ -1,4 +1,0 @@
-DATABASE_URL=sqlite:///./phishguard.db
-SECRET_KEY=change-me-to-a-long-random-string
-ACCESS_TOKEN_EXPIRE_MINUTES=120
-ALLOWED_ORIGINS=*
